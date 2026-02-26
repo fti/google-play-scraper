@@ -145,8 +145,7 @@ describe('Search method', () => {
         apps.map(assertValidApp);
         assertIdsInArray(
           apps,
-          'com.runtastic.android',
-          'running.tracker.gps.map',
+          'com.strava',
           'com.google.android.apps.fitness'
         );
       });
@@ -159,8 +158,8 @@ describe('Search method', () => {
           apps.map(assertValidApp);
           assertIdsInArray(
             apps,
-            'com.runtastic.android',
-            'running.tracker.gps.map'
+            'com.strava',
+            'com.google.android.apps.fitness'
           );
         });
     });
